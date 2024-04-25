@@ -4,7 +4,7 @@ console.info("TEST", document.cookie);
 
 fetch('https://px.ads.linkedin.com/collect', {
   method: "POST",
-  // mode: "cors",
+  mode: "no-cors",
   // cache: "no-cache",
   // credentials: "same-origin",
   headers: {
